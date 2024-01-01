@@ -1,0 +1,43 @@
+Tolong bantu deskripsikan secara selengkap-lengkapnya dengan untuk membantu tugas mata kuliah basis data. Jelaskan selengkap-lengkapnya seperti professor dosen yang mengampu mata kuliah  basis data yang menjawab pertanyaan tersebut. Deskripsikan sangat teliti dan berpikir sangat-sangat kritis! Pikirkanlah serumit mungkin dan sekompleks mungkin. Sebelum kamu memberikan jawaban, kamu akan mengecek terlebih dahulu apakah jawaban sudah sesuai atau belum secara sangat hati-hati dan teliti! Jawablah selengkap mungkin!
+
+jadi kost saya mempunyai masalah saya sebagai salah satu warga kost tersebut seperti:
+- kurang transparansi dalam hal keuangan seperti biaya listrik, air, dan kebersihan.
+- Kecepatan wifi yang kurang cepat ataupun kadang-kadang wifi berkendala seperti lemot.
+- Tidak ada fitur di mana dapat mengetahui berapa lama tinggal di kost.
+- Akses informasi penyewaan perkostan yang kurang seperti biaya kost per bulan, kost, kamar yang kosong, pemilik kost di dalam online.
+- Keamanan yang masih kurang.
+- Tidak ada sistem denda misalnya keterlambatan bayar, ataupun merugikan properti kost.
+
+deskripsikan latar belakang masalah ini dalam bentuk paragraf selengkap-lengkapnya, kemudian uraikan solusi yang dirancang. Saya sudah punya solusi misalnya jaringan lemot, seperti membuat akun masing-masing agar kecepatan internet dibatasi setiap user.
+Latar Belakang Masalah:
+sebagai penghuni kost, saya memiliki kendala seperti <lanjutkan>
+Solusi:
+<berisi solusi>
+
+Selanjutnya identifikasi data yang dibutuhkan! Nanti akan dibuat ke dalam model data seperti menentukan objek/data beserta atributnya dan menentukan relasi antar objek
+Misalnya pada kampus terdapat data
+1. Mahasiswa (NIM,nama,jenis kelamin, tempat tanggal lahir, alamat, no telp)
+2. Dosen (NIDN, Nama, jenis kelamin, tempat tanggal lahir, alamat)
+3. Mata kuliah (kode mata kuliah, nama mata kuliah,SKS Semester)
+Pada data di atas akan di buat ERD(Entity-Relationship Diagram)
+Contohnya Mahasiswa,dosen dan matakuliah sebagai objek/entitas. Nantinya ada sebagai proses seperti
+1. KRS/ambil mata kuliah (TA,Nilai)
+2. perwalian (tanggal, keterangan)
+3. mengampu (kelas,ruang,hari,jam)
+Sebelumnya Nanti pada kost akan dianalisis terlebih dahulu
+Objek:
+{objek}{atribut-atributnya}
+Proses:
+{relasi}{atribut-atributnya}
+Contoh untuk pembuatan Entity-relationship Diagram seperti berikut.
+1. Mahasiswa->ambil<-matakuliah
+2. mahasiswa->wali<-dosen
+3. Dosen->ampu<-matakuliah
+
+Tolong gambarkan Entity-relationship diagram  sekompleks mungkin minimal 10 Entity-relationship diagram dengan menuliskan format berikut:
+{objek}->{relasi}<-{objek}
+
+
+
+
+
